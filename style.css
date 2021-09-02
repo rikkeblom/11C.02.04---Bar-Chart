@@ -5,13 +5,17 @@
 .container {
   display: flex;
   align-items: flex-end;
-  width: 400px;
-  height: 320px;
-  /* border: red solid 10px; */
+  width: 410px;
+  height: 330px;
+  background-color: palegreen;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
 }
 
 .data {
   width: 10px;
   height: 50px;
+  border-radius: 4px 4px 0 0;
   background-color: thistle;
 }

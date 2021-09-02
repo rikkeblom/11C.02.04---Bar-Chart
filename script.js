@@ -31,7 +31,7 @@ function displayData() {
   for (let i = 0; i < 40; i++) {
     // console.log("display loop " + i);
     let queueHeight = model[i] * 10 + "px";
-    let opacity = ((40 - i) * 2.5) / 100;
+    let opacity = ((40 - i) * 5) / 100;
     document.querySelector(`.data${40 - i}`).setAttribute("style", `height: ${queueHeight}; opacity: ${opacity};`);
   }
 }
