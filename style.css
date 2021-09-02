@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  width: 400px;
+  height: 320px;
+  /* border: red solid 10px; */
+}
+
+.data {
+  width: 10px;
+  height: 50px;
+  background-color: thistle;
+}
